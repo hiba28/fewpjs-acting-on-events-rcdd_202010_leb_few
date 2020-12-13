@@ -18,7 +18,7 @@ function move(){
       let nmb = dodger.style.up.replace("px","")
       let up = parseInt(nmb,10)
       if(up > 0)
-        dodger.style.top = `${top + 2}px`
+        dodger.style.top = `${up + 2}px`
     }
   })
 }
