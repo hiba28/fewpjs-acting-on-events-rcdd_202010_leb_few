@@ -15,7 +15,7 @@ function move(){
         dodger.style.right = `${right + 2}px`
     }
     else if(e.key === "ArrowUp"){
-      let nmb = dodger.style.top.replace("px","")
+      let nmb = dodger.style.up.replace("px","")
       let up = parseInt(nmb,10)
       if(up > 0)
         dodger.style.top = `${top + 2}px`
