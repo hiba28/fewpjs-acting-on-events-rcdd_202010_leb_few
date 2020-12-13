@@ -16,9 +16,9 @@ function move(){
     }
     else if(e.key === "ArrowUp"){
       let nmb = dodger.style.top.replace("px","")
-      let right = parseInt(nmb,10)
-      if(right < document.style.width)
-        dodger.style.right = `${right + 2}px`
+      let up = parseInt(nmb,10)
+      if(up > 0)
+        dodger.style.top = `${top + 2}px`
     }
   })
 }
