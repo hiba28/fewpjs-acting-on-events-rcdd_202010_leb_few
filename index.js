@@ -1,7 +1,7 @@
 // Your code here
 let dodger = document.getElementById("dodger")
 function move(){
-  document.addEventListener("keyup",(e) => {
+  document.addEventListener("keydown",(e) => {
     if(e.key === "ArrowLeft"){
       let nmb = dodger.style.left.replace("px","")
       let left = parseInt(nmb,10)
