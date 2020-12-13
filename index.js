@@ -11,7 +11,7 @@ function move(){
     if(e.key === "ArrowRight"){
       let nmb = dodger.style.right.replace("px","")
       let right = parseInt(nmb,10)
-      if(right < 400)
+      if(right < 400px)
         dodger.style.right = `${right + 2}px`
     }
   })
